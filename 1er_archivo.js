@@ -46,4 +46,32 @@ console.log("Decrementar con -- seria = " + decrementar_1);
 decrementar_1 -= 5;
 console.log("seria con variable-=5 entonces nos queda = " + decrementar_1);
 
-//50m
+//imprimir comillas
+
+console.log("imprimir comillas \"hola\" ");
+console.log("Esta es otra manera 'hola'" + ' Esta es otra manera " hola " ');
+
+// smando variables con texto 
+
+var mensaje     = "Estoy aprendiendo " ;
+var parteFinal  = "a programar ";
+var lenguaje    = "en javaScript "; 
+console.log(mensaje);
+mensaje +=parteFinal;
+console.log(mensaje);
+mensaje = mensaje + lenguaje;
+console.log(mensaje);
+
+// longitud de una cadena de caracteres 
+
+console.log("ver cuantos caracteres tiene una cadena " + mensaje.length);
+
+console.log(mensaje[0]+ " "+mensaje[1]);
+
+var miCadena = "hola";
+//para saber el ultimo elmento 
+
+console.log(miCadena[miCadena.length - 1]);
+
+console.log(miCadena[miCadena.length - 2]);
+
