@@ -29,5 +29,29 @@ console.log("Comparador de desigualdad estricta ");
 console.log(9 !== "9"); // aqui dice verdadero porque s son diferentes estrictamente
 console.log(9 !== 9);
 
-// 3h:13m51s
+
+// mayor que
+
+console.log("Mayor que");
+console.log(7>8); // false
+console.log(8>7); //True
+
+// Mayor igual que
+console.log("Mayor igual que");
+console.log(5>=0);
+console.log(5>=5);
+console.log(5>=6);
+
+// Menor que 
+console.log("Menor que");
+console.log(5<6);
+console.log(5<5);
+console.log(5<4);
+
+//Menor igual que
+
+console.log("Menor igual que");
+console.log(5<=6);
+console.log(5<=5);
+console.log(5<=4);
 
